@@ -1,5 +1,4 @@
 # Algoritmia
-
 Este proyecto contiene diferentes con soluciones creadas por mi.
 Los problemas presentados en este repositorio son obtenidos de HackerRank.
 
