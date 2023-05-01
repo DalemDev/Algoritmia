@@ -24,12 +24,6 @@ public class Solucion {
             vueltasReverso++;
         }
 
-        vueltasFrente = Math.ceil(vueltasFrente / 2);
-        vueltasReverso = Math.ceil(vueltasReverso / 2);
-
-        if(vueltasFrente < vueltasReverso){
-            return (int) vueltasFrente;
-        }
-        return (int) vueltasReverso;
+        return Math.min((int)Math.ceil(vueltasFrente / 2), (int)Math.ceil(vueltasReverso / 2));
     }
 }
